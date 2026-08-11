@@ -1,0 +1,55 @@
+{
+    "title": "Product Recall Alert Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "category": {
+            "title": "Category",
+            "type": "string",
+            "editor": "select",
+            "description": "Which FDA-regulated product category to search.",
+            "enum": ["all", "drug", "food", "device"],
+            "enumTitles": ["All (drug + food + device)", "Drug", "Food", "Device"],
+            "default": "all"
+        },
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across the product description and recall reason (e.g. \"salmonella\", \"infusion pump\", \"undeclared peanut\"). Leave blank to skip keyword filtering."
+        },
+        "classification": {
+            "title": "Severity classification",
+            "type": "string",
+            "editor": "select",
+            "description": "FDA's own severity tier: Class I = reasonable chance of serious harm/death, Class II = temporary/reversible harm, Class III = unlikely to cause harm.",
+            "enum": ["all", "Class I", "Class II", "Class III"],
+            "enumTitles": ["All classes", "Class I (most severe)", "Class II", "Class III (least severe)"],
+            "default": "all"
+        },
+        "state": {
+            "title": "State",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Two-letter US state code to limit to recalls from firms based there (e.g. \"CA\"). Leave blank for all states."
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, based on FDA report date.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of recalls to return, most recent first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}
