@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "product-recall-alert",
-    "title": "Product Recall Alert — FDA Drug, Food & Device Recalls",
+    "title": "FDA Recall Tracker: Drug, Food & Device Recalls",
     "description": "Search recent FDA recall enforcement reports across drugs, food, and medical devices by keyword, severity class, or state. Official openFDA data, for compliance, quality, and supply-chain risk monitoring.",
     "version": "0.1",
     "meta": {
