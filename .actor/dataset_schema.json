@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "recallNumber",
+                    "classification",
+                    "status",
+                    "recallingFirm",
+                    "productDescription",
+                    "reasonForRecall",
+                    "productQuantity",
+                    "city",
+                    "state",
+                    "recallInitiationDate",
+                    "reportDate",
+                    "category"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "recallNumber": {
+                        "label": "Recall number",
+                        "format": "text"
+                    },
+                    "classification": {
+                        "label": "Classification",
+                        "format": "text"
+                    },
+                    "status": {
+                        "label": "Status",
+                        "format": "text"
+                    },
+                    "recallingFirm": {
+                        "label": "Recalling firm",
+                        "format": "text"
+                    },
+                    "productDescription": {
+                        "label": "Product description",
+                        "format": "text"
+                    },
+                    "reasonForRecall": {
+                        "label": "Reason for recall",
+                        "format": "text"
+                    },
+                    "productQuantity": {
+                        "label": "Product quantity",
+                        "format": "text"
+                    },
+                    "city": {
+                        "label": "City",
+                        "format": "text"
+                    },
+                    "state": {
+                        "label": "State",
+                        "format": "text"
+                    },
+                    "recallInitiationDate": {
+                        "label": "Recall initiation date",
+                        "format": "text"
+                    },
+                    "reportDate": {
+                        "label": "Report date",
+                        "format": "text"
+                    },
+                    "category": {
+                        "label": "Category",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
