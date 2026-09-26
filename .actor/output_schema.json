@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Product Recall Alert — FDA Drug, Food & Device Recalls",
+    "title": "Output schema of Product Recall Alert: FDA Drug, Food & Device Recalls",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
