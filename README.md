@@ -73,6 +73,6 @@ search returns 1 recall or 100.
 
 Looking for other risk-monitoring signals?
 
-- [Federal Contract Award Tracker](https://github.com/timmKal01/federal-contract-award-tracker) — who just won government contracts
-- [Field Operations Risk Briefing](https://github.com/timmKal01/field-operations-risk-briefing) — weather + space-weather conditions by location
-- [Medical Device Adverse Event Tracker](https://github.com/timmKal01/medical-device-adverse-event-tracker) — raw MAUDE incident reports, the earlier-signal counterpart to this actor's confirmed recalls
+- [Federal Contract Awards](https://apify.com/m_ctim/federal-contract-award-tracker): who just won government contracts
+- [Field Ops Risk Briefing](https://apify.com/m_ctim/field-operations-risk-briefing): weather + space-weather conditions by location
+- [FDA MAUDE Search](https://apify.com/m_ctim/medical-device-adverse-event-tracker): raw MAUDE incident reports, the earlier-signal counterpart to this actor's confirmed recalls
